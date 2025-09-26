@@ -40,3 +40,21 @@ result5 = 5+2**3*(4-1)
 
 print("Result 5: ", result5) 
 
+rectangle = 8*5
+print("Rectangle: ", rectangle)
+
+circle = 3.14*7
+
+print("Circle: ", circle)
+
+book = 12.99*3
+
+print("Book: ", book)
+
+notebook = 3.50*4
+
+print("Notebook: ", notebook)
+print(notebook+book)
+
+the_anything = 6 % 7
+print("The Anything: ", the_anything)

@@ -28,3 +28,17 @@ print(length_of_word)
 
 phrase = "SpOnGEBoB"
 print("\nuppercase:", phrase.upper())
+
+sentence = "Im a skibidi rizzler"
+new_sentence = sentence.replace("Im", "You're")
+print(new_sentence)
+
+Name = "Leo"
+age = "67"
+City = "New Rizzler"
+
+print(f"Hello my name is {Name}. I am {age} years old. I live in {City}.")
+
+print(f"Next year, I'll be {age + 1}. My name in uppercase is {name.upper()}.")
+
+

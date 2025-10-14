@@ -34,11 +34,23 @@ new_sentence = sentence.replace("Im", "You're")
 print(new_sentence)
 
 Name = "Leo"
-age = "67"
+age = 67
 City = "New Rizzler"
 
 print(f"Hello my name is {Name}. I am {age} years old. I live in {City}.")
 
 print(f"Next year, I'll be {age + 1}. My name in uppercase is {name.upper()}.")
+
+quote = input("Enter a quote: ")
+length = len(quote)
+print(f"The quote, {quote}, has {length} characters!")
+first_name = input("Enter your first name: ")
+last_name = input("Enter your last name")
+print(first_name.upper(), ", ", last_name.lower())
+
+
+
+word = input("Enter a random word: ")
+uppercase = word("upper")
 
 

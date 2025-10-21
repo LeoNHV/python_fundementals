@@ -48,4 +48,18 @@ else:
              print("Its the weekend!")
         else:
             print("Its the weekday")
-            
+
+input = int(input("Enter a number:"))
+if input % 2 == 1:
+    print("your number is odd")
+else: 
+    print("even")
+password = "ChickenStars"
+input = int("Enter a password")
+if password == input:
+    print("Acess Granted")
+else:
+    print("Acess Denied")
+
+input = int("Enter your grade:")
+grade = int("You got an A")
